@@ -1,5 +1,3 @@
-import math
-a = int(input())
-b = int(input())
-c = math.sqrt(a*a+b*b)
-print(round(a*b/c,2))
+mystr = input()
+num = int(input())
+print(mystr[num:]+mystr[0:num])
